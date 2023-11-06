@@ -253,6 +253,14 @@ sup {
   top: -0.5em;
 }
 
+.logo{
+  width: 80px;
+}
+
+.navbar-brand{
+  font-size: 20pt;
+}
+
 .back-video {
   text-align: center;
   background-color: #212529;
@@ -276,6 +284,12 @@ sup {
   .back-video{
     width: auto;
     height: auto;
+  }
+  .logo{
+    width: 60px;
+  }
+  .navbar-brand{
+    font-size: 10pt;
   }
 }
 
