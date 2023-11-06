@@ -253,6 +253,11 @@ sup {
   top: -0.5em;
 }
 
+.main-screen{
+  position: relative;
+  height: 100vh;
+}
+
 .logo{
   width: 80px;
 }
@@ -268,6 +273,7 @@ sup {
   position: absolute;
   right: 0;
   bottom: 0;
+  left: 0;
   z-index: -1;
   min-width: 100%;
   min-height: 100%;
@@ -283,13 +289,16 @@ sup {
 @media (max-aspect-ratio:16/9) {
   .back-video{
     width: auto;
-    height: auto;
+    height: 100%;
   }
   .logo{
     width: 60px;
   }
   .navbar-brand{
     font-size: 10pt;
+  }
+  .masthead{
+    margin-top: 100px;
   }
 }
 
