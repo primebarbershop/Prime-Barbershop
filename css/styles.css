@@ -91,6 +91,14 @@
   }
 }
 
+@media only screen and (max-width: 768px){
+  html,
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -245,15 +253,22 @@ sup {
   top: -0.5em;
 }
 
+.main-screen{
+  text-align: center;
+}
+
 .back-video {
+  text-align: center;
   background-color: #212529;
   opacity: 0.3;
   position: absolute;
   right: 0;
   bottom: 0;
+  left:0;
   z-index: -1;
   min-width: 100%;
   min-height: 100%;
+  z-index: 1;
 }
 
 @media (min-aspect-ratio:16/9) {
@@ -266,7 +281,7 @@ sup {
 @media (max-aspect-ratio:16/9) {
   .back-video{
     width: auto;
-    height: 100%;
+    height: auto;
   }
 }
 
