@@ -253,10 +253,6 @@ sup {
   top: -0.5em;
 }
 
-.main-screen{
-  text-align: center;
-}
-
 .back-video {
   text-align: center;
   background-color: #212529;
@@ -267,7 +263,6 @@ sup {
   z-index: -1;
   min-width: 100%;
   min-height: 100%;
-  z-index: 1;
 }
 
 @media (min-aspect-ratio:16/9) {
