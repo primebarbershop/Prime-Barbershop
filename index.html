@@ -48,6 +48,19 @@
                 padding: 5px 50px 5px 50px;
                 color: #fff;
             }
+            .google-maps {
+                position: relative;
+                padding-bottom: 75%; 
+                height: 0;
+                overflow: hidden;
+            }
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+            }
         </style>
     </head>
     <body id="page-top">
@@ -169,7 +182,7 @@
             <div class="container px-4 px-lg-5 justify-content-center" style="text-align: center;">
                 <h2 class="text-center mt-0">Prislista</h2>
                 <hr class="divider" />
-                <div style="display: inline-block; text-align: center; font-size: 20pt;">
+                <div class="prices-table" style="display: inline-block; text-align: center;">
                     <table style="text-align: left; display: inline-block;">
                         <tr>
                             <td>Hårklippning</td>
@@ -210,7 +223,9 @@
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6" style="text-align: center;">
-                        <iframe style="border-radius: 25px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.0169737167212!2d18.002614623686625!3d59.381894177371116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9dba16b59593%3A0xda3c055e7bc7c452!2sPrime%20Barbershop!5e0!3m2!1sar!2sse!4v1699216408034!5m2!1sar!2sse" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="google-maps">
+                            <iframe style="border-radius: 25px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.0169737167212!2d18.002614623686625!3d59.381894177371116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9dba16b59593%3A0xda3c055e7bc7c452!2sPrime%20Barbershop!5e0!3m2!1sar!2sse!4v1699216408034!5m2!1sar!2sse" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center contact-field">
